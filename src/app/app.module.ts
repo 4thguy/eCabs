@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule, MatCheckboxModule, MatToolbarModule } from '@angular/material';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -16,12 +17,14 @@ import { MatButtonModule, MatCheckboxModule, MatToolbarModule } from '@angular/m
     MatButtonModule,
     MatCheckboxModule,
     MatToolbarModule,
+    FlexLayoutModule,
   ],
   exports: [
     BrowserAnimationsModule,
     MatButtonModule,
     MatCheckboxModule,
     MatToolbarModule,
+    FlexLayoutModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
